@@ -32,7 +32,7 @@ minify_html:
 
 ## Contributing
 
-1. Fork it (https://github.com/username/my-awesome-plugin/fork)
+1. Fork it (https://github.com/MikeRogers0/bridgetown-minify-html/fork)
 2. Clone the fork using `git clone` to your local development machine.
 3. Create your feature branch (`git checkout -b feature/my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
