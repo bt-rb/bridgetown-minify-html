@@ -1,5 +1,7 @@
 # frozen_string_literal: true
-#
+
+# This actually does the Minification. It gets passed the site object, then it'll just loop through all the pages
+# and documents.
 module BridgetownMinifyHtml
   class Minifier
     DEFAULT_OPTIONS = {
@@ -25,7 +27,7 @@ module BridgetownMinifyHtml
 
     def initialize(site)
       @site = site
-      @minified_count = 0;
+      @minified_count = 0
     end
 
     def call!
