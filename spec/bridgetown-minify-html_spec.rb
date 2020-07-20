@@ -25,7 +25,7 @@ describe(BridgetownMinifyHtml) do
     expect(post_contents).to_not match "\n"
   end
 
-  context 'When disabled' do
+  context 'When minify_html.enabled false' do
     let(:overrides) do
       {
         "minify_html" => {
@@ -34,7 +34,7 @@ describe(BridgetownMinifyHtml) do
       }
     end
 
-    it "outputs HTML with any linebreaks" do
+    it "outputs HTML with linebreaks" do
       expect(page_contents).to match "\n"
       expect(post_contents).to match "\n"
     end
