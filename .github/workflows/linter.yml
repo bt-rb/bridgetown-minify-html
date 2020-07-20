@@ -1,20 +1,16 @@
 ---
-name: Lint Code Base
+name: Linters
+
 on:
   pull_request:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
-  build:
-    name: Lint Code Base
+  rubocop:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Lint Code Base
-        uses: docker://github/super-linter:v3
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: master
-
+    - uses: actions/checkout@v1
+    - name: Rubocop Linter Action
+      uses: andrewmcodes/rubocop-linter-action@v3.1.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
