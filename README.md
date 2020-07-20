@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/bridgetown-minify-html.svg)](https://badge.fury.io/rb/bridgetown-minify-html)
+
 # Bridgetown Minify HTML
 
 A Bridgetown plugin to Minify your outputted HTML.
