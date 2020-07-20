@@ -14,13 +14,15 @@ describe(BridgetownMinifyHtml) do
   end
 
   let(:site) { Bridgetown::Site.new(config) }
-  let(:contents) { File.read(dest_dir("index.html")) }
+  let(:page_contents) { File.read(dest_dir("index.html")) }
+  let(:post_contents) { File.read(dest_dir("2020/07/20/sample.html")) }
   before(:each) do
     site.process
   end
 
   it "outputs HTML without any linebreaks" do
-    expect(contents).to_not match "\n"
+    expect(page_contents).to_not match "\n"
+    expect(post_contents).to_not match "\n"
   end
 
   context 'When disabled' do
@@ -33,7 +35,8 @@ describe(BridgetownMinifyHtml) do
     end
 
     it "outputs HTML with any linebreaks" do
-      expect(contents).to match "\n"
+      expect(page_contents).to match "\n"
+      expect(post_contents).to match "\n"
     end
   end
 end
