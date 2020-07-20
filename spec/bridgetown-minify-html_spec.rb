@@ -25,7 +25,7 @@ describe(BridgetownMinifyHtml) do
     expect(post_contents).to_not match "\n"
   end
 
-  context 'When minify_html.enabled false' do
+  context 'When minify_html.enabled is false' do
     let(:overrides) do
       {
         "minify_html" => {
