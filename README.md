@@ -1,7 +1,5 @@
 # Bridgetown Minify HTML
 
-_Note: This is prerelease & is still being developed_
-
 A Bridgetown plugin to Minify your outputted HTML.
 
 ## Installation
@@ -9,12 +7,12 @@ A Bridgetown plugin to Minify your outputted HTML.
 Run this command to add this plugin to your site's Gemfile:
 
 ```shell
-$ bundle add bridgetown-minify-html -g bridgetown_plugins
+bundle add bridgetown-minify-html -g bridgetown_plugins
 ```
 
 ## Usage
 
-The plugin will compress your HTML when your site is built.
+Once you've added the plugin, it'll automatically compress your outputted HTML without any additional configuration required.
 
 ### Optional configuration options
 
