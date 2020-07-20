@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- feat: Rewording test titles [\#6](https://github.com/MikeRogers0/bridgetown-minify-html/pull/6) ([MikeRogers0](https://github.com/MikeRogers0))
 - chores: Adding rubygems badge in [\#5](https://github.com/MikeRogers0/bridgetown-minify-html/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
 - Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/MikeRogers0/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/setup-ruby from v1 to v1.1.1 [\#1](https://github.com/MikeRogers0/bridgetown-minify-html/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
