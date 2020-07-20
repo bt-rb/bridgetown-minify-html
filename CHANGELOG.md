@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.1.0...HEAD)
 
+**Fixed bugs:**
+
+- fix: Making sure changelog is regenerated on release [\#4](https://github.com/MikeRogers0/bridgetown-minify-html/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
+
 **Merged pull requests:**
 
 - Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/MikeRogers0/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
