@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/MikeRogers0/bridgetown-minify-html/tree/HEAD)
 
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/5ce9f22631f178ecf164501e7d28d6dee902ce9c...HEAD)
+[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/MikeRogers0/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v0.1.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v0.1.0) (2020-07-20)
+
+[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/5ce9f22631f178ecf164501e7d28d6dee902ce9c...v0.1.0)
 
 **Implemented enhancements:**
 
