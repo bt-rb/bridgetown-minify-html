@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- chores: Adding rubygems badge in [\#5](https://github.com/MikeRogers0/bridgetown-minify-html/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
 - Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/MikeRogers0/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.1.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v0.1.0) (2020-07-20)
