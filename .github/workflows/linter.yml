@@ -9,6 +9,15 @@ jobs:
   rubocop:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+    - name: Install rubocop-bridgetown gem
+      run: |
+        gem install rubocop-bridgetown
     - uses: actions/checkout@v1
     - name: Rubocop Linter Action
       uses: andrewmcodes/rubocop-linter-action@v3.1.0
