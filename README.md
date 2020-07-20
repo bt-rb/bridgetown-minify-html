@@ -20,9 +20,26 @@ The plugin will compress your HTML when your site is built.
 
 Within your `bridgetown.config.yml` file, you have the options:
 
-```
+```yml
 minify_html:
   enabled: true
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+  remove_intertag_spaces: false
+  remove_quotes: false
+  simple_doctype: false
+  remove_script_attributes: false
+  remove_style_attributes: false
+  remove_link_attributes: false
+  remove_form_attributes: false
+  remove_input_attributes: false
+  remove_javascript_protocol: false
+  remove_http_protocol: false
+  remove_https_protocol: false
+  preserve_line_breaks: false
+  simple_boolean_attributes: false
+  compress_js_templates: false
 ```
 
 ## Testing
