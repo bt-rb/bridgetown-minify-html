@@ -6,6 +6,7 @@
 
 **Fixed bugs:**
 
+- bug: undefined local variable or method extension [\#8](https://github.com/MikeRogers0/bridgetown-minify-html/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
 - bug: Bridgetown::StaticFile don't have output\_ext - so ignoring them [\#7](https://github.com/MikeRogers0/bridgetown-minify-html/pull/7) ([MikeRogers0](https://github.com/MikeRogers0))
 - fix: Making sure changelog is regenerated on release [\#4](https://github.com/MikeRogers0/bridgetown-minify-html/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
 
