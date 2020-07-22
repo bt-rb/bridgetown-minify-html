@@ -48,7 +48,7 @@ module BridgetownMinifyHtml
     end
 
     def compressible?(page)
-      page.respond_to?(:output_ext) && [".html", ".svg", ".xml"].include?(extension)
+      page.respond_to?(:output_ext) && [".html", ".svg", ".xml"].include?(page.output_ext)
     end
 
     def compressor
