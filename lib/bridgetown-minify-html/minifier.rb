@@ -41,14 +41,14 @@ module BridgetownMinifyHtml
     private
 
     def minify_page(page)
-      return unless compressible?(page.output_ext)
+      return unless compressible?(page)
 
       page.output = compressor.compress(page.output)
       @minified_count += 1
     end
 
-    def compressible?(extension)
-      [".html", ".svg", ".xml"].include?(extension)
+    def compressible?(page)
+      page.respond_to?(:output_ext) && [".html", ".svg", ".xml"].include?(extension)
     end
 
     def compressor
