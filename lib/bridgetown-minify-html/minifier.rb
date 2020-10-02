@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# This actually does the Minification. It gets passed the site object, then it'll just loop through all the pages
-# and documents.
+# This actually does the Minification. It gets passed the site object,
+# then it'll just loop through all the pages and documents.
 module BridgetownMinifyHtml
   class Minifier
     DEFAULT_OPTIONS = {
