@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Ditching docker [\#10](https://github.com/MikeRogers0/bridgetown-minify-html/pull/10) ([MikeRogers0](https://github.com/MikeRogers0))
 - Bump actions/setup-ruby from v1.1.1 to v1.1.2 [\#9](https://github.com/MikeRogers0/bridgetown-minify-html/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.2.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v0.2.0) (2020-07-22)
