@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Adding funding\_uri & metadata in [\#13](https://github.com/MikeRogers0/bridgetown-minify-html/pull/13) ([MikeRogers0](https://github.com/MikeRogers0))
 - Adding new badges to the readme [\#12](https://github.com/MikeRogers0/bridgetown-minify-html/pull/12) ([MikeRogers0](https://github.com/MikeRogers0))
 - Cleaning up GitHub Actions [\#11](https://github.com/MikeRogers0/bridgetown-minify-html/pull/11) ([MikeRogers0](https://github.com/MikeRogers0))
 - Ditching docker [\#10](https://github.com/MikeRogers0/bridgetown-minify-html/pull/10) ([MikeRogers0](https://github.com/MikeRogers0))
