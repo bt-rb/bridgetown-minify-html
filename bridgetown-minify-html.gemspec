@@ -11,6 +11,15 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/MikeRogers0/bridgetown-minify-html"
   spec.license       = "MIT"
 
+  spec.metadata = {
+    'bug_tracker_uri' => "#{spec.homepage}/issues",
+    'changelog_uri' => "#{spec.homepage}/blob/master/CHANGELOG.md",
+    'documentation_uri' => spec.homepage,
+    'homepage_uri' => spec.homepage,
+    'source_code_uri' => spec.homepage,
+    'funding_uri' => 'https://www.buymeacoffee.com/MikeRogers0'
+  }
+
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r!^(test|script|spec|features|frontend)/!) }
   spec.test_files    = spec.files.grep(%r!^spec/!)
   spec.require_paths = ["lib"]
