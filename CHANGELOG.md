@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/MikeRogers0/bridgetown-minify-html/tree/HEAD)
+
+[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v1.0.0...HEAD)
+
+**Merged pull requests:**
+
+- Removing docker from Dependabot checks [\#17](https://github.com/MikeRogers0/bridgetown-minify-html/pull/17) ([MikeRogers0](https://github.com/MikeRogers0))
+
 ## [v1.0.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v1.0.0) (2020-10-22)
 
 [Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.2.0...v1.0.0)
