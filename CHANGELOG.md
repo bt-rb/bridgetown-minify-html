@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/MikeRogers0/bridgetown-minify-html/tree/HEAD)
+## [v1.0.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v1.0.0) (2020-10-22)
 
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.2.0...HEAD)
+[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.2.0...v1.0.0)
 
 **Merged pull requests:**
 
