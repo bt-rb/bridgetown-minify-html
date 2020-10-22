@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bumping to 1.0.0 [\#16](https://github.com/MikeRogers0/bridgetown-minify-html/pull/16) ([MikeRogers0](https://github.com/MikeRogers0))
 - Using GitHub Action by @jstastny for gempush [\#15](https://github.com/MikeRogers0/bridgetown-minify-html/pull/15) ([MikeRogers0](https://github.com/MikeRogers0))
 - Testing against multiple ruby versions [\#14](https://github.com/MikeRogers0/bridgetown-minify-html/pull/14) ([MikeRogers0](https://github.com/MikeRogers0))
 - Adding funding\_uri & metadata in [\#13](https://github.com/MikeRogers0/bridgetown-minify-html/pull/13) ([MikeRogers0](https://github.com/MikeRogers0))
