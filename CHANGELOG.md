@@ -1,52 +1,53 @@
 # Changelog
 
-## [Unreleased](https://github.com/MikeRogers0/bridgetown-minify-html/tree/HEAD)
+## [Unreleased](https://github.com/bt-rb/bridgetown-minify-html/tree/HEAD)
 
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v1.0.0...HEAD)
-
-**Merged pull requests:**
-
-- Removing docker from Dependabot checks [\#17](https://github.com/MikeRogers0/bridgetown-minify-html/pull/17) ([MikeRogers0](https://github.com/MikeRogers0))
-
-## [v1.0.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v1.0.0) (2020-10-22)
-
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.2.0...v1.0.0)
+[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.0...HEAD)
 
 **Merged pull requests:**
 
-- Bumping to 1.0.0 [\#16](https://github.com/MikeRogers0/bridgetown-minify-html/pull/16) ([MikeRogers0](https://github.com/MikeRogers0))
-- Using GitHub Action by @jstastny for gempush [\#15](https://github.com/MikeRogers0/bridgetown-minify-html/pull/15) ([MikeRogers0](https://github.com/MikeRogers0))
-- Testing against multiple ruby versions [\#14](https://github.com/MikeRogers0/bridgetown-minify-html/pull/14) ([MikeRogers0](https://github.com/MikeRogers0))
-- Adding funding\_uri & metadata in [\#13](https://github.com/MikeRogers0/bridgetown-minify-html/pull/13) ([MikeRogers0](https://github.com/MikeRogers0))
-- Adding new badges to the readme [\#12](https://github.com/MikeRogers0/bridgetown-minify-html/pull/12) ([MikeRogers0](https://github.com/MikeRogers0))
-- Cleaning up GitHub Actions [\#11](https://github.com/MikeRogers0/bridgetown-minify-html/pull/11) ([MikeRogers0](https://github.com/MikeRogers0))
-- Ditching docker [\#10](https://github.com/MikeRogers0/bridgetown-minify-html/pull/10) ([MikeRogers0](https://github.com/MikeRogers0))
-- Bump actions/setup-ruby from v1.1.1 to v1.1.2 [\#9](https://github.com/MikeRogers0/bridgetown-minify-html/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Updating owner references [\#18](https://github.com/bt-rb/bridgetown-minify-html/pull/18) ([MikeRogers0](https://github.com/MikeRogers0))
+- Removing docker from Dependabot checks [\#17](https://github.com/bt-rb/bridgetown-minify-html/pull/17) ([MikeRogers0](https://github.com/MikeRogers0))
 
-## [v0.2.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v0.2.0) (2020-07-22)
+## [v1.0.0](https://github.com/bt-rb/bridgetown-minify-html/tree/v1.0.0) (2020-10-22)
 
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/v0.1.0...v0.2.0)
+[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v0.2.0...v1.0.0)
+
+**Merged pull requests:**
+
+- Bumping to 1.0.0 [\#16](https://github.com/bt-rb/bridgetown-minify-html/pull/16) ([MikeRogers0](https://github.com/MikeRogers0))
+- Using GitHub Action by @jstastny for gempush [\#15](https://github.com/bt-rb/bridgetown-minify-html/pull/15) ([MikeRogers0](https://github.com/MikeRogers0))
+- Testing against multiple ruby versions [\#14](https://github.com/bt-rb/bridgetown-minify-html/pull/14) ([MikeRogers0](https://github.com/MikeRogers0))
+- Adding funding\_uri & metadata in [\#13](https://github.com/bt-rb/bridgetown-minify-html/pull/13) ([MikeRogers0](https://github.com/MikeRogers0))
+- Adding new badges to the readme [\#12](https://github.com/bt-rb/bridgetown-minify-html/pull/12) ([MikeRogers0](https://github.com/MikeRogers0))
+- Cleaning up GitHub Actions [\#11](https://github.com/bt-rb/bridgetown-minify-html/pull/11) ([MikeRogers0](https://github.com/MikeRogers0))
+- Ditching docker [\#10](https://github.com/bt-rb/bridgetown-minify-html/pull/10) ([MikeRogers0](https://github.com/MikeRogers0))
+- Bump actions/setup-ruby from v1.1.1 to v1.1.2 [\#9](https://github.com/bt-rb/bridgetown-minify-html/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v0.2.0](https://github.com/bt-rb/bridgetown-minify-html/tree/v0.2.0) (2020-07-22)
+
+[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v0.1.0...v0.2.0)
 
 **Fixed bugs:**
 
-- bug: undefined local variable or method extension [\#8](https://github.com/MikeRogers0/bridgetown-minify-html/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
-- bug: Bridgetown::StaticFile don't have output\_ext - so ignoring them [\#7](https://github.com/MikeRogers0/bridgetown-minify-html/pull/7) ([MikeRogers0](https://github.com/MikeRogers0))
-- fix: Making sure changelog is regenerated on release [\#4](https://github.com/MikeRogers0/bridgetown-minify-html/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
+- bug: undefined local variable or method extension [\#8](https://github.com/bt-rb/bridgetown-minify-html/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
+- bug: Bridgetown::StaticFile don't have output\_ext - so ignoring them [\#7](https://github.com/bt-rb/bridgetown-minify-html/pull/7) ([MikeRogers0](https://github.com/MikeRogers0))
+- fix: Making sure changelog is regenerated on release [\#4](https://github.com/bt-rb/bridgetown-minify-html/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
 
 **Merged pull requests:**
 
-- feat: Rewording test titles [\#6](https://github.com/MikeRogers0/bridgetown-minify-html/pull/6) ([MikeRogers0](https://github.com/MikeRogers0))
-- chores: Adding rubygems badge in [\#5](https://github.com/MikeRogers0/bridgetown-minify-html/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
-- Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/MikeRogers0/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/setup-ruby from v1 to v1.1.1 [\#1](https://github.com/MikeRogers0/bridgetown-minify-html/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
+- feat: Rewording test titles [\#6](https://github.com/bt-rb/bridgetown-minify-html/pull/6) ([MikeRogers0](https://github.com/MikeRogers0))
+- chores: Adding rubygems badge in [\#5](https://github.com/bt-rb/bridgetown-minify-html/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
+- Update rake requirement from ~\> 12.0 to ~\> 13.0 [\#2](https://github.com/bt-rb/bridgetown-minify-html/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/setup-ruby from v1 to v1.1.1 [\#1](https://github.com/bt-rb/bridgetown-minify-html/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
-## [v0.1.0](https://github.com/MikeRogers0/bridgetown-minify-html/tree/v0.1.0) (2020-07-20)
+## [v0.1.0](https://github.com/bt-rb/bridgetown-minify-html/tree/v0.1.0) (2020-07-20)
 
-[Full Changelog](https://github.com/MikeRogers0/bridgetown-minify-html/compare/5ce9f22631f178ecf164501e7d28d6dee902ce9c...v0.1.0)
+[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/5ce9f22631f178ecf164501e7d28d6dee902ce9c...v0.1.0)
 
 **Implemented enhancements:**
 
-- Preparing for 0.1.0 release [\#3](https://github.com/MikeRogers0/bridgetown-minify-html/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
+- Preparing for 0.1.0 release [\#3](https://github.com/bt-rb/bridgetown-minify-html/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
 
 
 
