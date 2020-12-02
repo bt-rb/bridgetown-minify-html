@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.author        = "Mike Rogers"
   spec.email         = "me@mikerogers.io"
   spec.summary       = "Minify Outputted HTML in Bridgetown"
-  spec.homepage      = "https://github.com/MikeRogers0/bridgetown-minify-html"
+  spec.homepage      = "https://github.com/bt-rb/bridgetown-minify-html"
   spec.license       = "MIT"
 
   spec.metadata = {
