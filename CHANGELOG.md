@@ -28,6 +28,10 @@
 
 [Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v0.1.0...v0.2.0)
 
+**Implemented enhancements:**
+
+- Preparing for 0.1.0 release [\#3](https://github.com/bt-rb/bridgetown-minify-html/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
+
 **Fixed bugs:**
 
 - bug: undefined local variable or method extension [\#8](https://github.com/bt-rb/bridgetown-minify-html/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
@@ -44,10 +48,6 @@
 ## [v0.1.0](https://github.com/bt-rb/bridgetown-minify-html/tree/v0.1.0) (2020-07-20)
 
 [Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/5ce9f22631f178ecf164501e7d28d6dee902ce9c...v0.1.0)
-
-**Implemented enhancements:**
-
-- Preparing for 0.1.0 release [\#3](https://github.com/bt-rb/bridgetown-minify-html/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
 
 
 
