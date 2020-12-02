@@ -1,6 +1,6 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/MikeRogers0?label=Follow%20%40MikeRogers0%20For%20Updates&style=social)](https://twitter.com/MikeRogers0)
-![RSpec](https://github.com/MikeRogers0/bridgetown-minify-html/workflows/RSpec/badge.svg)
-![RuboCop](https://github.com/MikeRogers0/bridgetown-minify-html/workflows/RuboCop/badge.svg)
+![RSpec](https://github.com/bt-rb/bridgetown-minify-html/workflows/RSpec/badge.svg)
+![RuboCop](https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/bridgetown-minify-html.svg)](https://badge.fury.io/rb/bridgetown-minify-html)
 
 # Bridgetown Minify HTML
@@ -52,7 +52,7 @@ minify_html:
 
 ## Contributing
 
-1. Fork it (https://github.com/MikeRogers0/bridgetown-minify-html/fork)
+1. Fork it (https://github.com/bt-rb/bridgetown-minify-html/fork)
 2. Clone the fork using `git clone` to your local development machine.
 3. Create your feature branch (`git checkout -b feature/my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
