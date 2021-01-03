@@ -2,11 +2,12 @@
 name: Changelog
 
 on:
+  workflow_dispatch:
   release:
     types: [created]
   push:
-    branches:
-      - master
+    #branches:
+      #- master
 
 jobs:
   build:
@@ -28,13 +29,17 @@ jobs:
     - name: Create local changes
       run: |
         gem install github_changelog_generator
+
+        echo $GITHUB_REPOSITORY
+
         github_changelog_generator -u bt-rb -p bridgetown-minify-html --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
     - name: Commit files
       run: |
         git config --local user.email "github-actions@example.com"
         git config --local user.name "GitHub Actions"
         git commit -am "[nodoc] Update Changelog" || echo "No changes to commit"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    #- name: Push changes
+      #uses: ad-m/github-push-action@master
+      #with:
+        #github_token: ${{ secrets.GITHUB_TOKEN }}
+        #branch: ${{ github.ref }}
