@@ -27,8 +27,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-changelog-gem-
     - name: Create local changes
-      with:
-
       run: |
         gem install github_changelog_generator
 
