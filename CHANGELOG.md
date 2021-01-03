@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Adding support for Ruby 3.0 [\#20](https://github.com/bt-rb/bridgetown-minify-html/pull/20) ([MikeRogers0](https://github.com/MikeRogers0))
 - Fix: Changelog was pushing to main not master [\#19](https://github.com/bt-rb/bridgetown-minify-html/pull/19) ([MikeRogers0](https://github.com/MikeRogers0))
 
 ## [v1.0.1](https://github.com/bt-rb/bridgetown-minify-html/tree/v1.0.1) (2020-12-02)
