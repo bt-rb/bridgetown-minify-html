@@ -27,9 +27,15 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-changelog-gem-
     - name: Create local changes
+      with:
+
       run: |
         gem install github_changelog_generator
-        github_changelog_generator -u ${ github.context.repo.owner } -p ${ github.context.repo.repo } --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
+
+        echo ${{ github.context.repo.owner }}
+        echo ${{ github.context.repo.repo }}
+
+        github_changelog_generator -u "${{ github.context.repo.owner }}" -p "${{ github.context.repo.repo }}" --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
     - name: Commit files
       run: |
         git config --local user.email "github-actions@example.com"
