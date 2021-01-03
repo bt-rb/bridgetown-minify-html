@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/bt-rb/bridgetown-minify-html/tree/HEAD)
+
+[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...HEAD)
+
+**Merged pull requests:**
+
+- Fix: Changelog was pushing to main not master [\#19](https://github.com/bt-rb/bridgetown-minify-html/pull/19) ([MikeRogers0](https://github.com/MikeRogers0))
+
 ## [v1.0.1](https://github.com/bt-rb/bridgetown-minify-html/tree/v1.0.1) (2020-12-02)
 
 [Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.0...v1.0.1)
