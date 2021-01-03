@@ -19,20 +19,20 @@ jobs:
     - name: Set up Ruby 2.7
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.1
+        ruby-version: 2.7.2
     - uses: actions/cache@v2
       with:
         path: vendor/bundle
-        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        key: ${{ runner.os }}-changelog-gem-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
-          ${{ runner.os }}-gem-
+          ${{ runner.os }}-changelog-gem-
     - name: Create local changes
       run: |
         gem install github_changelog_generator
 
-        echo $GITHUB_REPOSITORY
+        IFS=/; GITHUB_REPOSITORY_PARTS=( $(echo $GITHUB_REPOSITORY) )
 
-        github_changelog_generator -u bt-rb -p bridgetown-minify-html --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
+        github_changelog_generator -u $GITHUB_REPOSITORY_PARTS[1] -p $GITHUB_REPOSITORY_PARTS[2] --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
     - name: Commit files
       run: |
         git config --local user.email "github-actions@example.com"
