@@ -6,8 +6,8 @@ on:
   release:
     types: [created]
   push:
-    #branches:
-      #- master
+    branches:
+      - master
 
 jobs:
   build:
@@ -35,8 +35,8 @@ jobs:
         git config --local user.email "github-actions@example.com"
         git config --local user.name "GitHub Actions"
         git commit -am "[nodoc] Update Changelog" || echo "No changes to commit"
-    #- name: Push changes
-      #uses: ad-m/github-push-action@master
-      #with:
-        #github_token: ${{ secrets.GITHUB_TOKEN }}
-        #branch: ${{ github.ref }}
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
