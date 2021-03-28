@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Adding GitHub Action to autorelease when GitHub changes [\#22](https://github.com/bt-rb/bridgetown-minify-html/pull/22) ([MikeRogers0](https://github.com/MikeRogers0))
 - Adding support for Ruby 3.0 [\#20](https://github.com/bt-rb/bridgetown-minify-html/pull/20) ([MikeRogers0](https://github.com/MikeRogers0))
 - Fix: Changelog was pushing to main not master [\#19](https://github.com/bt-rb/bridgetown-minify-html/pull/19) ([MikeRogers0](https://github.com/MikeRogers0))
 
