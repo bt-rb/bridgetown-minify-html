@@ -1,11 +1,25 @@
-[![Twitter Follow](https://img.shields.io/twitter/follow/MikeRogers0?label=Follow%20%40MikeRogers0%20For%20Updates&style=social)](https://twitter.com/MikeRogers0)
-![RSpec](https://github.com/bt-rb/bridgetown-minify-html/workflows/RSpec/badge.svg)
-![RuboCop](https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg)
-[![Gem Version](https://badge.fury.io/rb/bridgetown-minify-html.svg)](https://badge.fury.io/rb/bridgetown-minify-html)
+<h1 align="center">
+  Bridgetown Minify HTML
+</h1>
 
-# Bridgetown Minify HTML
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/MikeRogers0">
+    <img src="https://img.shields.io/twitter/follow/MikeRogers0?label=Follow%20%40MikeRogers0%20For%20Updates&style=social" alt="Follow @MikeRogers on Twitter" style="max-width:100%;">
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://badge.fury.io/rb/bridgetown-minify-html">
+    <img src="https://badge.fury.io/rb/bridgetown-minify-html.svg" alt="Gem Version" style="max-width:100%;">
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/bt-rb/bridgetown-minify-html/workflows/RSpec/badge.svg">
+    <img src="https://github.com/bt-rb/bridgetown-minify-html/workflows/RSpec/badge.svg" alt="RSpec" style="max-width:100%;">
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg">
+    <img src="https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg" alt="RuboCop" style="max-width:100%;">
+  </a>
+</p>
 
-A Bridgetown plugin to Minify your outputted HTML.
+<p align="center">
+  A Bridgetown plugin to Minify your outputted HTML.
+</p>
 
 ## Installation
 
