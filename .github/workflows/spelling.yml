@@ -14,9 +14,5 @@ jobs:
     steps:
     - name: TypoCheck
       uses: typoci/spellcheck-action@master
-      # with:
-        # A license can be purchased via:
-        # https://gumroad.com/l/MvvBE
-        # typo_ci_license_key: ${{ secrets.TYPO_CI_LICENSE_KEY }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

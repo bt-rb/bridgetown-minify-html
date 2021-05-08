@@ -20,15 +20,9 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0
-    - uses: actions/cache@v2
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-changelog-gem-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-changelog-gem-
+        bundler-cache: true
     - name: Create local changes
       run: |
-        gem install github_changelog_generator -v "1.15.2"
         github_changelog_generator -u ${{ github.repository_owner }} -p ${{ github.event.repository.name }} --token ${{ secrets.GITHUB_TOKEN }} --exclude-labels duplicate,question,invalid,wontfix,nodoc
     - name: Commit files
       run: |
