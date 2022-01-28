@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r!^spec/!)
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 2.6"
+  spec.required_ruby_version = ">= 2.7"
 
   spec.add_dependency "bridgetown", ">= 0.15", "< 2.0"
   spec.add_dependency "htmlcompressor", ">= 0.4", "< 1.0"
