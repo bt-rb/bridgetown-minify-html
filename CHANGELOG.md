@@ -1,8 +1,19 @@
 # Changelog
 
-[Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...HEAD)
+## [2.0.0.beta1](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...v2.0.0.beta1) (2022-01-28)
 
-**Merged pull requests:**
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to account for changes to @site.pages and @site.documents (#25)
+
+### Bug Fixes
+
+* Changelog was pushing to main not master ([#19](https://github.com/bt-rb/bridgetown-minify-html/issues/19)) ([5483b12](https://github.com/bt-rb/bridgetown-minify-html/commit/5483b1250b3c0035600ed8a3bab6d7512cc17a97))
+* set required reuby version to >= 2.7 ([7171051](https://github.com/bt-rb/bridgetown-minify-html/commit/717105125bad53f0b574044cdda81d2ffa96038d))
+* Upgrade to account for changes to [@site](https://github.com/site).pages and [@site](https://github.com/site).documents ([#25](https://github.com/bt-rb/bridgetown-minify-html/issues/25)) ([ed63a53](https://github.com/bt-rb/bridgetown-minify-html/commit/ed63a53686abc0b15298d6d84f70cfeff67e9287))
+
+### Legacy
 
 - Adjust Readme to center title & subtitle [\#23](https://github.com/bt-rb/bridgetown-minify-html/pull/23) ([MikeRogers0](https://github.com/MikeRogers0))
 - Adding GitHub Action to autorelease when GitHub changes [\#22](https://github.com/bt-rb/bridgetown-minify-html/pull/22) ([MikeRogers0](https://github.com/MikeRogers0))
