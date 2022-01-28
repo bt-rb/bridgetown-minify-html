@@ -31,7 +31,7 @@ module BridgetownMinifyHtml
     end
 
     def call!
-      (@site.pages + @site.documents).each do |page|
+      @site.resources.each do |page|
         minify_page(page)
       end
 
@@ -41,14 +41,15 @@ module BridgetownMinifyHtml
     private
 
     def minify_page(page)
-      return unless compressible?(page)
+      return unless compressible?(page.destination)
 
       page.output = compressor.compress(page.output)
       @minified_count += 1
     end
 
-    def compressible?(page)
-      page.respond_to?(:output_ext) && [".html", ".svg", ".xml"].include?(page.output_ext)
+    def compressible?(destination)
+      destination.respond_to?(:output_ext) &&
+        [".html", ".svg", ".xml"].include?(destination.output_ext)
     end
 
     def compressor

@@ -15,7 +15,7 @@ describe(BridgetownMinifyHtml) do
 
   let(:site) { Bridgetown::Site.new(config) }
   let(:page_contents) { File.read(dest_dir("index.html")) }
-  let(:post_contents) { File.read(dest_dir("2020/07/20/sample.html")) }
+  let(:post_contents) { File.read(dest_dir("2020/07/20/sample/index.html")) }
   before(:each) do
     site.process
   end
