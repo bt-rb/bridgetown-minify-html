@@ -9,6 +9,19 @@
 - Adding support for Ruby 3.0 [\#20](https://github.com/bt-rb/bridgetown-minify-html/pull/20) ([MikeRogers0](https://github.com/MikeRogers0))
 - Fix: Changelog was pushing to main not master [\#19](https://github.com/bt-rb/bridgetown-minify-html/pull/19) ([MikeRogers0](https://github.com/MikeRogers0))
 
+## [2.0.0](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...v2.0.0) (2022-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to account for changes to @site.pages and @site.documents (#25)
+
+### Bug Fixes
+
+* Changelog was pushing to main not master ([#19](https://github.com/bt-rb/bridgetown-minify-html/issues/19)) ([5483b12](https://github.com/bt-rb/bridgetown-minify-html/commit/5483b1250b3c0035600ed8a3bab6d7512cc17a97))
+* set required reuby version to >= 2.7 ([7171051](https://github.com/bt-rb/bridgetown-minify-html/commit/717105125bad53f0b574044cdda81d2ffa96038d))
+* Upgrade to account for changes to [@site](https://github.com/site).pages and [@site](https://github.com/site).documents ([#25](https://github.com/bt-rb/bridgetown-minify-html/issues/25)) ([ed63a53](https://github.com/bt-rb/bridgetown-minify-html/commit/ed63a53686abc0b15298d6d84f70cfeff67e9287))
+
 ## [v1.0.1](https://github.com/bt-rb/bridgetown-minify-html/tree/v1.0.1) (2020-12-02)
 
 [Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.0...v1.0.1)
