@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.0](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...v2.0.0) (2022-01-28)
+## [2.0.0.beta1](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...v2.0.0.beta1) (2022-01-28)
 
 
 ### ⚠ BREAKING CHANGES
