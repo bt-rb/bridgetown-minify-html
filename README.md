@@ -3,9 +3,6 @@
 </h1>
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/MikeRogers0">
-    <img src="https://img.shields.io/twitter/follow/MikeRogers0?label=Follow%20%40MikeRogers0%20For%20Updates&style=social" alt="Follow @MikeRogers on Twitter" style="max-width:100%;">
-  </a>
   <a target="_blank" rel="noopener noreferrer" href="https://badge.fury.io/rb/bridgetown-minify-html">
     <img src="https://badge.fury.io/rb/bridgetown-minify-html.svg" alt="Gem Version" style="max-width:100%;">
   </a>
@@ -72,3 +69,7 @@ minify_html:
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request
+
+## 💌 In Loving Memory of Mike Rogers
+
+[Mike Rogers](https://github.com/MikeRogers0) was the creator of `bridgetown-minify-html` and participated in the project from July 2020 until his passing in November 2021. This project is maintained by [@andrewmcodes](https://github.com/andrewmcodes) in his honor. You can find Mike's obituary [here if you'd like to leave a message.](https://www.mykeeper.com/profile/MikeRogers/)

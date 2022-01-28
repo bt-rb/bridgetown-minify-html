@@ -5,19 +5,18 @@ require_relative "lib/bridgetown-minify-html/version"
 Gem::Specification.new do |spec|
   spec.name          = "bridgetown-minify-html"
   spec.version       = BridgetownMinifyHtml::VERSION
-  spec.author        = "Mike Rogers"
-  spec.email         = "me@mikerogers.io"
+  spec.authors = ["Mike Rogers", "Andrew Mason"]
+  spec.email         = "support@andrewm.codes"
   spec.summary       = "Minify Outputted HTML in Bridgetown"
   spec.homepage      = "https://github.com/bt-rb/bridgetown-minify-html"
   spec.license       = "MIT"
 
   spec.metadata = {
     'bug_tracker_uri' => "#{spec.homepage}/issues",
-    'changelog_uri' => "#{spec.homepage}/blob/master/CHANGELOG.md",
+    "changelog_uri" => "#{spec.homepage}/blob/main/CHANGELOG.md",
     'documentation_uri' => spec.homepage,
     'homepage_uri' => spec.homepage,
-    'source_code_uri' => spec.homepage,
-    'funding_uri' => 'https://www.buymeacoffee.com/MikeRogers0'
+    "source_code_uri" => spec.homepage
   }
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r!^(test|script|spec|features|frontend)/!) }
