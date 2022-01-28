@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased](https://github.com/bt-rb/bridgetown-minify-html/tree/HEAD)
-
 [Full Changelog](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...HEAD)
 
 **Merged pull requests:**

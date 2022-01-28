@@ -1,5 +1,8 @@
 name: Release
 
+env:
+  BRIDGETOWN_VERSION: 1.0.0.beta2
+
 on:
   push:
     branches:
