@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/bt-rb/bridgetown-minify-html/compare/v2.0.0...v2.0.0) (2022-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to account for changes to @site.pages and @site.documents (#25)
+
+### Features
+
+* Rewording test titles ([#6](https://github.com/bt-rb/bridgetown-minify-html/issues/6)) ([1f82fae](https://github.com/bt-rb/bridgetown-minify-html/commit/1f82fae6e5376c3a527f1bd3df2598ae7865de0a))
+
+
+### Bug Fixes
+
+* Changelog was pushing to main not master ([#19](https://github.com/bt-rb/bridgetown-minify-html/issues/19)) ([5483b12](https://github.com/bt-rb/bridgetown-minify-html/commit/5483b1250b3c0035600ed8a3bab6d7512cc17a97))
+* Making sure changelog is regenerated on release ([#4](https://github.com/bt-rb/bridgetown-minify-html/issues/4)) ([e7bc541](https://github.com/bt-rb/bridgetown-minify-html/commit/e7bc541785ea5d1c04cd0cbee8207343d6acdd62))
+* migrate to resource engine ([#35](https://github.com/bt-rb/bridgetown-minify-html/issues/35)) ([f8a62fb](https://github.com/bt-rb/bridgetown-minify-html/commit/f8a62fbd740138069240014f73f4156452c7bbe2))
+* set required reuby version to >= 2.7 ([7171051](https://github.com/bt-rb/bridgetown-minify-html/commit/717105125bad53f0b574044cdda81d2ffa96038d))
+* Upgrade to account for changes to [@site](https://github.com/site).pages and [@site](https://github.com/site).documents ([#25](https://github.com/bt-rb/bridgetown-minify-html/issues/25)) ([ed63a53](https://github.com/bt-rb/bridgetown-minify-html/commit/ed63a53686abc0b15298d6d84f70cfeff67e9287))
+
+
+### Miscellaneous Chores
+
+* release 2.0.0 ([c09639b](https://github.com/bt-rb/bridgetown-minify-html/commit/c09639b4127acf92ccd455ddbbd59c16b8d82625))
+
 ## [2.0.0](https://github.com/bt-rb/bridgetown-minify-html/compare/v1.0.1...v2.0.0) (2022-05-25)
 
 
