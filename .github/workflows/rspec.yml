@@ -2,7 +2,7 @@
 name: RSpec
 
 env:
-  BRIDGETOWN_VERSION: 1.0.0.beta2
+  BRIDGETOWN_VERSION: 1.0.0
 
 on:
   push:
