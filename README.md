@@ -12,6 +12,9 @@
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg">
     <img src="https://github.com/bt-rb/bridgetown-minify-html/workflows/RuboCop/badge.svg" alt="RuboCop" style="max-width:100%;">
   </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/bt-rb/bridgetown-minify-html/actions/workflows/codeql-analysis.yml">
+    <img src="https://github.com/bt-rb/bridgetown-minify-html/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQL" style="max-width:100%;">
+  </a>
 </p>
 
 <p align="center">
