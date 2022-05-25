@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.7"
 
-  spec.add_dependency "bridgetown", ">= 0.15", "< 2.0"
+  spec.add_dependency "bridgetown", ">= 1.0.0", "< 2.0"
   spec.add_dependency "htmlcompressor", ">= 0.4", "< 1.0"
 
   spec.add_development_dependency "bundler"

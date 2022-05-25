@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This actually does the Minification. It gets passed the site object,
-# then it'll just loop through all the pages and documents.
+# then it'll just loop through all the resources.
 module BridgetownMinifyHtml
   class Minifier
     DEFAULT_OPTIONS = {
@@ -31,8 +31,8 @@ module BridgetownMinifyHtml
     end
 
     def call!
-      @site.resources.each do |page|
-        minify_page(page)
+      @site.resources.each do |resource|
+        minify_resource(resource)
       end
 
       Bridgetown.logger.info "Minify HTML:", "Complete, Processed #{@minified_count} file(s)"
@@ -40,16 +40,15 @@ module BridgetownMinifyHtml
 
     private
 
-    def minify_page(page)
-      return unless compressible?(page.destination)
+    def minify_resource(resource)
+      return unless compressible?(resource)
 
-      page.output = compressor.compress(page.output)
+      resource.output = compressor.compress(resource.output)
       @minified_count += 1
     end
 
-    def compressible?(destination)
-      destination.respond_to?(:output_ext) &&
-        [".html", ".svg", ".xml"].include?(destination.output_ext)
+    def compressible?(resource)
+      resource.destination.respond_to?(:output_ext) && [".html", ".svg", ".xml"].include?(resource.destination.output_ext)
     end
 
     def compressor
