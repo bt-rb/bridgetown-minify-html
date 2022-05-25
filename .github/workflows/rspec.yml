@@ -2,12 +2,16 @@
 name: RSpec
 
 env:
-  BRIDGETOWN_VERSION: 1.0.0.beta2
+  BRIDGETOWN_VERSION: 1.0.0
 
 on:
   push:
     branches: [ main ]
   pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   test:

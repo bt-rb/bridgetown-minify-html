@@ -28,7 +28,7 @@ bundle add bridgetown-minify-html -g bridgetown_plugins
 
 ## Usage
 
-Once you've added the plugin, it'll automatically compress your outputted HTML without any additional configuration required.
+Once you've added the plugin, it'll automatically compress your outputted HTML without any additional configuration required when you run `bin/bridgetown build` or `bin/bridgetown deploy`.
 
 ### Optional configuration options
 
