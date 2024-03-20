@@ -26,7 +26,19 @@
 Run this command to add this plugin to your site's Gemfile:
 
 ```shell
-bundle add bridgetown-minify-html -g bridgetown_plugins
+bundle add bridgetown-minify-html
+```
+
+Or simply add this line to your Gemfile:
+
+```ruby
+gem 'bridgetown-minify-html'
+```
+
+And then add the initializer to your configuration in `config/initializers.rb`:
+
+```ruby
+init :"bridgetown-minify-html"
 ```
 
 ## Usage

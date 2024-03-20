@@ -17,6 +17,7 @@ describe(BridgetownMinifyHtml) do
   let(:page_contents) { File.read(dest_dir("index.html")) }
   let(:post_contents) { File.read(dest_dir("2020/07/20/sample/index.html")) }
   before(:each) do
+    config.run_initializers! context: :static
     site.process
   end
 
