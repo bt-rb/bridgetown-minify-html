@@ -12,5 +12,3 @@ module BridgetownMinifyHtml
     end
   end
 end
-
-BridgetownMinifyHtml::Builder.register
